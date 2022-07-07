@@ -1,0 +1,33 @@
+<div class="container">
+   
+
+    <div class="row">
+
+        
+        <div *ngFor="let d of topheadingDisplay" class="col-lg-3"> 
+            
+            <img src="{{img}}" height="10" width="50">
+            <h5>{{d.id}}</h5>
+            <title>{{d.title}}</title>
+            <p>{{d.body}}</p>
+            <a href="{{d.url}}">Read more</a>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- <p>topheading works!</p>
+
+<div *ngFor="let d of topheadingDisplay">
+    {{d.title}}    
+
+</div> -->
